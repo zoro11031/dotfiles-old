@@ -1,0 +1,6 @@
+# exclude
+avahi
+qt
+pulseaudio
+ranger
+calf
