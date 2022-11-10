@@ -1,0 +1,80 @@
+{
+    "overlay-color1"    :"rgba(31, 109, 102, 0.6)",
+    "overlay-color2"    :"rgba(3, 49, 85, 0.6)",
+    "heatmap-background":true,
+    
+    "gear-icon-color"   : "rgba(68, 68, 68,1)",
+    "buttons-color"     : "rgba(0, 150, 136,1)",
+    "buttons-label-color"  : "rgba(255, 255, 255,1)", 
+    "bottombar-color"   : "rgba(224, 242, 241,1)",
+    "topbar-color"      : "rgba(0, 150, 136,1)",
+    "topbar-position" : "left",
+
+    "large-areas-color"  : "rgba(224, 224, 224, 0.28)" ,
+    "decks-border-color" : "rgba(126, 126, 126, 0.6)",
+    "decks-font-color"   : "rgba(39, 39, 39,1)",
+    "decks-font-size"        :"15px",
+    "decks-font-family"        :"Raleway",
+    "decks-font-src"        :"Raleway.ttf",
+    "filtered-deck-color" :"rgba(255, 193, 7,1)",
+
+    "DECK-BROWSER": {
+
+                
+        "review-count-background-color" : " rgba(76, 175, 80,1)",
+        "review-count-color" : "rgb(255, 255, 255,1)",
+        "new-count-background-color" : "rgba(57, 73, 171,0.8)",
+        "new-count-color" : "rgb(255, 255, 255,1)",
+
+
+        "wedgits-font-size"     :"13px",
+        "wedgits-font-family"   :"Raleway",
+        "wedgits-font-src"      :"Raleway.ttf",
+        "wedgits-font-color" : "rgba(256,256,256,1)" ,
+
+
+        "overview-wedgit-bg"  : "rgba(0, 131, 143,0.8)" ,
+        "average-wedgit-bg"   : "rgba(245, 127, 23,0.8)" ,
+        "remaining-wedgit-bg" : "rgba(191, 54, 12,0.8)" ,
+        "new-wedgit-bg"       : "rgba(57, 73, 171,0.8)" ,
+        "due-wedgit-bg"       : "rgba(76, 175, 80,0.8)" ,
+        "total-wedgit-bg"     : "rgba(94, 53, 177,0.8)" 
+
+
+    },
+    "DECK-OVERVIEW" :{
+
+        "deck-name-font-size":"70px",
+        "deck-name-font-family":"fantasy",
+        "deck-name-font-src"        :"",
+
+        "wedgits-font-size"     :"13px",
+        "wedgits-font-family"   :"Raleway",
+        "wedgits-font-src"      :"Raleway.ttf",
+        "wedgits-font-color"    : "rgba(255, 255, 255,1)",
+
+
+        "total-notes-wedgit-bg" : "rgba(0, 137, 123,0.8)" ,
+        "remaining-wedgit-bg"   : "rgba(255, 143, 0,0.8)" ,
+        "new-wedgit-bg"         : "rgba(57, 73, 171,0.8)" ,
+        "learning-wedgit-bg"    : "rgba(216, 67, 21,0.8)" ,
+        "review-wedgit-bg"      : "rgba(46, 125, 50,0.8)" ,
+        "total-wedgit-bg"       : "rgba(94, 53, 177,0.8)" ,
+
+        
+    
+    "PIE-CHART":{
+        "wedgits-font-color" : "rgba(0,0,0,1)"
+    }
+    },
+
+    "night":{
+        "large-areas-color"     : "rgba(56, 56, 58 , 0.8) ",
+        "decks-border-color"    : "rgba(56, 56, 58 , 1) ",
+        "decks-font-color"           : "rgba(255, 255, 255, 1)",
+        "filtered-deck-color"   : "rgba(130, 187, 240,1)",
+        "gear-icon-color"       : " rgba(171, 189, 198,1)"
+    }
+   
+
+}

@@ -1,0 +1,47 @@
+{
+    
+    "animation":false,
+    "change answer buttons":true,
+    "date_format": "eu",
+    "note_correction_factors": {
+        "Fr": 2,
+        "English": 2
+        },
+    "heatmap_position" : "default",
+    "theme" : "default",
+    "local":{
+        "Average" : "Average" , 
+        "cards/minute" : "cards/minute",
+        "minute" : "minute" ,
+        "minutes" : "minutes" ,
+        "more" : "more" ,
+        "New" : "New" ,
+        "Due" : "Due" ,
+        "Learn" : "Learn" ,
+        "Learning" : "Learning" ,
+        "Review" : "Review" ,
+        "Total" : "Total",
+        "Cards" : "Cards",
+        "Notes" : "Notes",
+        "Done in" : "Done in",
+        "day":"day",
+        "days":"days",
+        "Mature" : "Mature",
+        "Young" : "Young",
+        "Unseen" : "Unseen",
+        "Suspended": "Suspended"
+
+    }
+
+
+    
+   
+}
+
+
+
+
+
+
+
+

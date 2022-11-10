@@ -1,0 +1,65 @@
+body{
+  word-break: break-word;
+  font-size: 12px;
+}
+
+body.nightMode {
+  color: white;
+  background-size: 100%;
+
+}
+
+.container{
+  width: 80%;
+}
+
+h1{
+  font-size:5rem ;
+  color: #fff;
+  font-family: fantasy;
+  font-variant: petite-caps;
+  word-break: break-word
+}
+
+
+/***************** Widgets ***************/
+
+.widget{
+  padding:5px;
+  border-radius:5px;
+  height: 145px;
+  max-width: 46%;
+  margin: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.widget-top{
+  height: 85px;
+}
+
+/* large numbers in widgets */
+.number{
+  font-size:2.3vw
+}
+
+.w-icon{
+display: block;
+font-size: 2vw;
+}
+
+/**************************************/
+
+.deck-desc{
+  padding: 2%;
+  margin: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:5px;
+  border-radius:5px;
+}
+
+.finish-msg{
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-variant: petite-caps;
+
+}

@@ -1,0 +1,149 @@
+
+  body{
+    background-size :cover !important;
+   font-size: 12px;
+  }
+
+.decks-container{
+  padding: 1%;
+
+}
+
+.deck-row{
+  padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 50px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #8d8d8d;
+}
+
+.deck-row:last-child {
+  border-bottom: 0;
+}
+
+  .overlay{
+
+    min-height: 100vh;
+    background-size: 100%;
+    padding-bottom: 2em;;
+  }
+  
+  .padding{
+      padding-left: 10px; 
+  }
+  .decktd {
+      text-align:left
+  }
+  .gears {
+
+      opacity: 1;
+      padding-top: 0.2em;
+      cursor: pointer;
+  }
+  
+  .collapseable{
+    padding-left: 4px;
+    padding-right: 10px;
+  }
+
+  a.collapseable {
+    text-decoration: none;
+  }
+
+  .count{
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .zero-count {
+    color: #494949;
+  }
+  
+
+.full {
+  width: 96%;
+  margin: 2%;
+}
+
+.stats{
+  text-align: left;
+  border-radius: 3px;
+  padding: 2%;
+  height:70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+figure{
+  z-index: -500;
+  margin: 0;
+}
+
+.crossfade > figure {
+ 
+    animation: imageAnimation 30s linear infinite 0s;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center center;
+    color: transparent;
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    background-repeat: repeat-y;
+    top: 0px;
+    width: 100%;
+    z-index: -500;
+  }
+  
+
+  .crossfade > figure:nth-child(1) {
+   background-image: url('../background.jpg');  }
+.crossfade > figure:nth-child(2) {
+  animation-delay: 6s;
+  background-image: url('../background5.jpg');  }
+
+.crossfade > figure:nth-child(3) {
+  animation-delay: 12s;
+  background-image: url('../background2.jpg'); }
+
+ 
+.crossfade > figure:nth-child(4) {
+  animation-delay: 18s;
+  background-image: url('../background3.jpg');  }
+
+.crossfade > figure:nth-child(5) {
+  animation-delay: 24s;
+  background-image: url('../background4.jpg'); }
+
+
+
+
+@keyframes
+imageAnimation {  0% {
+ animation-timing-function: ease-in;
+ opacity: 0;
+}
+
+ 8% {
+ animation-timing-function: ease-out;
+ opacity: 1;
+}
+ 17% {
+ opacity: 1
+}
+ 25% {
+ opacity: 0
+}
+ 100% {
+ opacity: 0
+}
+
+}
+
+
+td{
+  display: inline-block;
+}
