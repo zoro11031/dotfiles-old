@@ -4,7 +4,6 @@ cp -R  /home/petergriffin/.config/swa* /home/petergriffin/Documents/dotfiles-pub
 cp -R /home/petergriffin/.config/waybar/ /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.config/kitty/ /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.config/nwg* /home/petergriffin/Documents/dotfiles-public/
-cp -R /home/petergriffin/.config/nwg* /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.config/gtk* /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.config/qt* /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.config/fish /home/petergriffin/Documents/dotfiles-public/
