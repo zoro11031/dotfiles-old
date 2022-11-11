@@ -1,4 +1,25 @@
-## Media Keys etc
+###Application Hot Keys###
+
+## Toggle control center
+	bindsym $mod+Shift+n exec swaync-client -t -sw
+	
+##Toggle nwg-drawer	
+	bindsym $mod+a exec nwg-drawer -ovl
+
+##Open File Manager
+	bindsym $mod+e exec nemo
+
+##Task Manager
+	bindsym Control+Shift+Escape exec /bin/gnome-system-monitor
+
+##Screenshot
+        bindsym $mod+Shift+s exec /home/petergriffin/.config/sway/scripts/snipping.sh
+        bindsym Mod4+s exec grimshot save screen 
+        bindsym Mod4+Control+s exec grimshot save window
+        
+
+
+###Media Keys etc###
 	bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 	bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 	bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
