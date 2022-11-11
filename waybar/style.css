@@ -10,7 +10,7 @@
 }
 
 window#waybar {
-	background: shade(alpha(@base, 0.9), 1.0);
+	background: shade(alpha(@mantle, 0.9), 1.0);
     border-bottom: shade(alpha(@base, 0.9), 1.0);
     color: @rosewater;
     transition-property: background-color;
@@ -109,7 +109,7 @@ window#waybar.chromium {
 }
 
 #clock {
-    background-color: @overlay0;
+    background-color: @surface0;
     color: @rosewater;
 }
 
@@ -219,7 +219,7 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: @surface1;
+    background-color: @surface0;
     color: @rosewater;
 }
 
