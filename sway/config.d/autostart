@@ -10,7 +10,7 @@
 	exec_always swaync
 
 ##Waybar
-	exec waybar
+	exec_always waybar
 
 ##Lock Screen
 	bindsym $mod+Mod1+l exec swaylock -C ~/.config/swaylock/config
