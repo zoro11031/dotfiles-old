@@ -146,7 +146,7 @@
         "bat": "BAT2"
     },
     "custom/spotify": {
-        "exec": "/usr/bin/python3 /home/petergriffin//.config/waybar/mediaplayer.py --player spotify",
+        "exec": "/usr/bin/python3 /home/petergriffin/.config/waybar/mediaplayer.py --player spotify",
         "format": "{}  ",
         "return-type": "json",
         "on-click": "playerctl play-pause",
