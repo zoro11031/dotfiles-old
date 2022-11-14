@@ -296,16 +296,16 @@ label:focus {
 
 #custom-separator2 {
   color: rgba(67, 255, 100, 0);
-  padding: 0 2px;
+  padding: 0 1px;
   font-size: 1px;
-  margin: 0px 1px 0px 6px;
+  margin: 0px 1px 0px 3px;
 }
 
 #custom-separator3 {
   color: rgba(67, 255, 100, 0);
-  padding: 0 2px;
+  padding: 0 1px;
   font-size: 1px;
-  margin: 0px 6px 0px 1px;
+  margin: 0px 3px 0px 1px;
 }
 
 
