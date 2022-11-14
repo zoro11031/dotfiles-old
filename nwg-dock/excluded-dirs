@@ -1,0 +1,6 @@
+# exclude all paths other than application folder containing 'game2text'
+/home/petergriffin/.local/share/game2text
+/mnt/Omega/Japanese Materials/Tools/Portable Japanese Study/game2text
+/mnt/Omega/Japanese Materials/Tools/Reading
+/mnt/Omega/Backup
+/home/petergriffin/.local/share/game2text

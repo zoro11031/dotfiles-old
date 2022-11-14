@@ -293,3 +293,9 @@ label:focus {
   color: rgba(67, 255, 100, 0);
   margin: 0 30px;
 }
+
+#custom-power {
+    background-color: @mauve;
+    color: @base;
+}
+

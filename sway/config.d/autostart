@@ -32,7 +32,7 @@ exec_always  nwg-dock -d -nows -nolauncher
 	exec gammastep-indicator
 
 ##Autotiling Script
-	exec_always /bin/autotiling.py
+	exec_always autotiling 
 
 ##Polkit (GUI authenticator)
 	exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1

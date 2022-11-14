@@ -7,36 +7,22 @@
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "custom/separator", "sway/window"],
     "modules-center": ["clock"],
-    "modules-right": ["idle_inhibitor", "gamemode", "tray", "custom/spotify", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2"],
+    "modules-right": ["idle_inhibitor", "gamemode", "tray", "custom/spotify", "pulseaudio", "network", "cpu", "memory", "temperature", "keyboard-state", "custom/power"],
     // Modules configuration
    "sway/workspaces": {
         "format": "{name}",
    		"sort-by-number": true,
        "persistent_workspaces": {
-           "1:一": [], // Always show a workspace with name 'Home', on all outputs if it does not exists
+           "1:一": [], // Always show a workspace with name '一', on all outputs if it does not exists
            "2:二": [], // Always show a workspace with name 'Social', on all outputs if it does not exists
-           "3:三": [], // Always show a workspace with name 'Study', on all outputs if it does not exists
-           "4:勉強": [], // Always show a workspace with name 'Games', on all outputs if it does not exists
-           "5:ゲーム": [], // Always show a workspace with name 'Computer', on all outputs if it does not exists
-           "6:宿題": [], // Always show a workspace with name 'Homework', on all outputs if it does not exists
-           "7:桜": [], // Always show a workspace with name 'Scratch', on all outputs if it does not exists
+           "3:三": [], // Always show a workspace with name '三', on all outputs if it does not exists
+           "4:勉強": [], // Always show a workspace with name '勉強' on all outputs if it does not exists
+           "5:ゲーム": [], // Always show a workspace with name 'ゲーム', on all outputs if it does not exists
+           "6:宿題": [], // Always show a workspace with name '宿題', on all outputs if it does not exists
+           "7:桜": [], // Always show a workspace with name '桜', on all outputs if it does not exists
            
     }   
 },   
-    //     "disable-scroll": true,
-    //     "all-outputs": true,
-    //     "format": "{name}: {icon}",
-    //     "format-icons": {
-    //         "1": "",
-    //         "2": "",
-    //         "3": "",
-    //         "4": "",
-    //         "5": "",
-    //         "urgent": "",
-    //         "focused": "",
-    //         "default": ""
-    //     }
-    // },
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -46,37 +32,9 @@
             "unlocked": ""
         }
     },
-    "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
-    },
 
     
-    "mpd": {
-        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
-        "format-disconnected": "Disconnected ",
-        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
-        "unknown-tag": "N/A",
-        "interval": 2,
-        "consume-icons": {
-            "on": " "
-        },
-        "random-icons": {
-            "off": "<span color=\"#f53c3c\"></span> ",
-            "on": " "
-        },
-        "repeat-icons": {
-            "on": " "
-        },
-        "single-icons": {
-            "on": "1 "
-        },
-        "state-icons": {
-            "paused": "",
-            "playing": ""
-        },
-        "tooltip-format": "MPD (connected)",
-        "tooltip-format-disconnected": "MPD (disconnected)"
-    },
+
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
@@ -128,23 +86,6 @@
         "format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
-    "battery": {
-        "states": {
-            // "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
-    },
-    "battery#bat2": {
-        "bat": "BAT2"
-    },
     "custom/spotify": {
         "exec": "/usr/bin/python3 /home/petergriffin/.config/waybar/mediaplayer.py --player spotify",
         "format": "{}  ",
@@ -156,9 +97,9 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
@@ -197,7 +138,20 @@
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    }
+    },
+
+
+"custom/power": {
+    "format": "", // This icon is provided by the Awesome-fonts collection, not sure how to paste it unfortunately
+
+    "on-click": "swaynag -t warning -m 'Power Menu Options' -b 'Shutdown'  'shutdown -h now' -b 'Restart' 'shutdown -r now' -b 'Logout' 'swaymsg exit' -b 'Hibernate' 'systemctl hibernate' --background=#181926 --button-background=#363a4f --button-border=#1e2030 --border-bottom=#002b33 --button-text=#f4dbd6"
+},
+"return-type": "json",
+"exec-if": "which swaync-client",
+"exec": "swaync-client -swb",
+"on-click": "swaync-client -t -sw",
+"on-click-right": "swaync-client -d -sw",
+"escape": true
 }
 
 

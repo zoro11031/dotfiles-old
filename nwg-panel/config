@@ -1,0 +1,228 @@
+[
+  {
+    "name": "panel-top",
+    "output": "All",
+    "layer": "bottom",
+    "position": "top",
+    "controls": "right",
+    "width": 2559,
+    "height": 25,
+    "homogeneous": true,
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "padding-horizontal": 0,
+    "padding-vertical": 0,
+    "spacing": 0,
+    "items-padding": 0,
+    "icons": "dark",
+    "css-name": "panel-top",
+    "modules-left": [
+      "sway-workspaces"
+    ],
+    "modules-center": [
+      "clock"
+    ],
+    "modules-right": [
+      "tray",
+      "playerctl"
+    ],
+    "controls-settings": {
+      "components": [
+        "volume",
+        "battery",
+        "bluetooth",
+        "net"
+      ],
+      "commands": {
+        "net": "",
+        "bluetooth": "",
+        "battery": ""
+      },
+      "show-values": false,
+      "interval": 1,
+      "icon-size": 14,
+      "hover-opens": false,
+      "leave-closes": true,
+      "click-closes": false,
+      "css-name": "controls-window",
+      "net-interface": "networking",
+      "custom-items": [
+        {
+          "name": "Panel settings",
+          "icon": "nwg-panel",
+          "cmd": "nwg-panel-config"
+        }
+      ],
+      "menu": {
+        "name": "Exit",
+        "icon": "system-shutdown-symbolic",
+        "items": [
+          {
+            "name": "Lock",
+            "cmd": "swaylock -f -c 000000"
+          },
+          {
+            "name": "Logout",
+            "cmd": "swaymsg exit"
+          },
+          {
+            "name": "Reboot",
+            "cmd": "systemctl reboot"
+          },
+          {
+            "name": "Shutdown",
+            "cmd": "systemctl -i poweroff"
+          }
+        ]
+      },
+      "output-switcher": true,
+      "backlight-controller": "light",
+      "backlight-device": "",
+      "window-width": 0,
+      "window-margin-horizontal": 0,
+      "window-margin-vertical": 0,
+      "root-css-name": "controls-overview",
+      "angle": 0.0
+    },
+    "tray": {
+      "root-css-name": "tray",
+      "inner-css-name": "inner-tray",
+      "icon-size": 14,
+      "smooth-scrolling-threshold": 0
+    },
+    "sway-taskbar": {
+      "workspace-menu": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "name-max-len": 20,
+      "image-size": 16,
+      "workspaces-spacing": 0,
+      "task-padding": 0,
+      "show-app-icon": true,
+      "show-app-name": true,
+      "show-layout": true,
+      "workspace-buttons": false,
+      "all-workspaces": true,
+      "mark-autotiling": true,
+      "mark-xwayland": true,
+      "all-outputs": true
+    },
+    "sway-workspaces": {
+      "numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "custom-labels": [
+        "\u4e00",
+        "\u4e8c",
+        "\u4e09",
+        "\u52c9\u5f37",
+        "\u30b2\u30fc\u30e0",
+        "\u5bbf\u984c",
+        "\u685c"
+      ],
+      "focused-labels": [],
+      "show-icon": true,
+      "image-size": 16,
+      "show-name": true,
+      "name-length": 40,
+      "mark-autotiling": true,
+      "mark-content": true,
+      "show-layout": true,
+      "angle": 0.0
+    },
+    "clock": {
+      "format": "%Y-%m-%d - %I:%M",
+      "tooltip-text": "",
+      "on-left-click": "",
+      "on-middle-click": "",
+      "on-right-click": "",
+      "on-scroll-up": "",
+      "on-scroll-down": "",
+      "css-name": "clock",
+      "interval": 1,
+      "tooltip-date-format": false,
+      "root-css-name": "root-clock",
+      "angle": 0.0,
+      "calendar-path": "",
+      "calendar-css-name": "calendar-window",
+      "calendar-placement": "top",
+      "calendar-margin-horizontal": 0,
+      "calendar-margin-vertical": 0,
+      "calendar-icon-size": 14,
+      "calendar-interval": 60,
+      "calendar-on": true
+    },
+    "playerctl": {
+      "buttons-position": "left",
+      "icon-size": 14,
+      "chars": 30,
+      "scroll": false,
+      "button-css-name": "playerctl",
+      "label-css-name": "spotify",
+      "interval": 1,
+      "show-cover": false,
+      "cover-size": 20,
+      "angle": 0.0
+    },
+    "button-sample": {
+      "command": "notify-send 'sample button'",
+      "icon": "view-grid",
+      "label": "",
+      "label-position": "right",
+      "css-name": "button-custom",
+      "icon-size": 16
+    },
+    "menu-start": "off",
+    "exclusive-zone": true,
+    "scratchpad": {},
+    "openweather": {},
+    "brightness-slider": {},
+    "dwl-tags": {},
+    "swaync": {
+      "tooltip-text": "Notifications",
+      "on-left-click": "swaync-client -t",
+      "on-middle-click": "",
+      "on-right-click": "",
+      "on-scroll-up": "",
+      "on-scroll-down": "",
+      "root-css-name": "root-notifications",
+      "css-name": "notifications",
+      "icon-placement": "left",
+      "icon-size": 14,
+      "interval": 1,
+      "always-show-icon": true
+    },
+    "menu-start-settings": {
+      "cmd-lock": "exec swaylock -C ~/.config/swaylock/config",
+      "cmd-logout": "swaymsg exit",
+      "cmd-restart": "systemctl reboot",
+      "cmd-shutdown": "systemctl -i poweroff",
+      "autohide": true,
+      "file-manager": "nemo",
+      "height": 0,
+      "icon-size-large": 20,
+      "icon-size-small": 16,
+      "icon-size-button": 16,
+      "margin-bottom": 0,
+      "margin-left": 0,
+      "margin-right": 0,
+      "margin-top": 0,
+      "padding": 2,
+      "terminal": "kitty",
+      "width": 0
+    }
+  }
+]

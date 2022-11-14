@@ -1,0 +1,151 @@
+/***** SUGGESTED TO CHANGE CAREFULLY *****/
+
+ @import "macchiato.css";
+*
+
+ {
+
+	border: none;
+	border-radius: 6px;
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, Roboto Bold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Recommended if panel "height" unset or smaller then your theme default button height */
+button {
+    margin: 4px
+}
+
+/* SwayTaskBar and SwayWorkspaces use custom widgets, that need this and the next name
+   to highlight currently focused task / workspace. */
+#task-box {
+    padding-left: 4px;
+    padding-right: 4px
+}
+
+#task-box-focused {
+    background-color: rgba (255, 255, 255, 0.12);
+    padding-left: 4px;
+    padding-right: 4px
+
+
+}
+
+
+/***** MODIFY TO YOUR TASTE *****/
+
+/* Sample button in sample config w/ no background nor border */
+#button-custom {
+    background: rgba (0, 0, 0, 0.0);
+    border: 0
+}
+
+/* Top panel in sample config uses this name */
+#panel-top {
+    background: shade(alpha(@mantle, 0.9), 1.0);
+    color: @rosewater 
+}
+
+/* Bottom panel in sample config uses this name */
+#panel-bottom {
+    background: #3b4559;
+    color: #eeeeee
+}
+
+/* Controls window in sample config uses this name */
+#controls-window {
+    border-radius: 15px;
+    background: #36364f;
+    color: #eeeeee
+}
+
+/* Brightness slider popup window in sample config uses this name */
+#brightness-popup {
+    border-radius: 15px;
+    background: #36364f;
+    color: #eeeeee
+}
+#brightness-popup box {
+    padding: 15px;
+}
+
+/* Executors usually behave better in monospace fonts */
+#executor-label {
+    font-family: Roboto Bold
+}
+
+/* and so does the Clock */
+#clock {
+    background-color: @surface0;
+    color: @rosewater;
+    font-family: Roboto Bold;
+    font-size: 14px;
+    padding: 0 10px
+}
+
+/* Sample executor-weather uses "css-name": "weather" */
+#weather {
+    font-size: 14px
+}
+
+#tray {
+    background-color: @lavender;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: @blue;
+}
+
+
+/* dwl-tags module */
+#dwl-tag-box {
+	padding-top: 4px;
+	padding-bottom: 4px
+}
+
+#dwl-tag-occupied {
+	font-family: Roboto Bold;
+	color: #eee;
+    background-color: #006699;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#dwl-tag-free {
+	font-family: Roboto Bold;
+	color: #eee;
+    background-color: rgba (32, 50, 90, 1.0);
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#dwl-tag-urgent {
+	font-family: Roboto Bold;
+	color: #eee;
+    background-color: #ee6600;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#dwl-tag-selected {
+	border: solid 2px;
+	border-color: #81a1c1
+}
+
+#spotify {
+    background-color: @green;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: @base;
+}
+
+#playerctl {
+    background-color: @green;
+    color: @base;
+}

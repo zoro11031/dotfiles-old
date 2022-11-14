@@ -4,10 +4,10 @@ default_floating_border normal
 hide_edge_borders --i3 smart
 smart_borders on
 smart_gaps on
-client.focused #c6a0f6 #45475ab3  #cdd6f4 #45475ab3
-client.focused_inactive #c6a0f6 #ed879600  #24273a #ed879600
-client.unfocused #c6a0f6 #ed879600  #cad3f5 #ed879600
-font pango:Roboto Mono Medium 8
+client.focused #24273ae6 #181926e6  #f4dbd6 #45475ab3 
+client.focused_inactive #24273ae6 #363a4f00 #f4dbd6 #ed879600
+client.unfocused #24273ae6 #363a4f00  #f4dbd6 #ed879600
+font pango:Roboto Medium 8
 
 #Gaps
 gaps inner 7 
