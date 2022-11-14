@@ -5,16 +5,16 @@
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["sway/workspaces", "custom/separator", "sway/window"],
+    "modules-left": ["custom/separator2", "sway/workspaces", "custom/separator", "sway/window"],
     "modules-center": ["clock"],
-    "modules-right": ["idle_inhibitor", "gamemode", "tray", "custom/spotify", "pulseaudio", "network", "cpu", "memory", "temperature", "keyboard-state", "custom/power"],
+    "modules-right": ["idle_inhibitor", "gamemode", "tray", "custom/spotify", "pulseaudio", "network", "cpu", "memory", "temperature", "keyboard-state", "custom/power", "custom/separator3"],
     // Modules configuration
    "sway/workspaces": {
         "format": "{name}",
    		"sort-by-number": true,
        "persistent_workspaces": {
            "1:一": [], // Always show a workspace with name '一', on all outputs if it does not exists
-           "2:二": [], // Always show a workspace with name 'Social', on all outputs if it does not exists
+           "2:二": [], // Always show a workspace with name '二', on all outputs if it does not exists
            "3:三": [], // Always show a workspace with name '三', on all outputs if it does not exists
            "4:勉強": [], // Always show a workspace with name '勉強' on all outputs if it does not exists
            "5:ゲーム": [], // Always show a workspace with name 'ゲーム', on all outputs if it does not exists
@@ -127,6 +127,19 @@
         "interval": "once",
         "tooltip": false
     },
+
+    "custom/separator2": {
+        "format": "|",
+        "interval": "once",
+        "tooltip": false
+    },
+
+    "custom/separator3": {
+        "format": "|",
+        "interval": "once",
+        "tooltip": false
+    },
+
     "custom/media": {
         "format": "{icon} {}",
         "return-type": "json",
