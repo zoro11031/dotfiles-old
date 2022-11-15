@@ -15,7 +15,7 @@ window#waybar {
     color: @rosewater;
     transition-property: background-color;
     transition-duration: .5s;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 window#waybar.hidden {
@@ -40,6 +40,10 @@ window#waybar.chromium {
     border: none;
 }
 
+workspaces {
+    border-radius: 15px 6px 6px 15px;
+}
+
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
@@ -55,13 +59,16 @@ window#waybar.chromium {
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 -3px @maroon;
+    border-radius: 5px;
+    border: none;
+
 }
 
 #workspaces button.focused {
     background-color: @surface2;
     box-shadow: inset 0 -3px @pink;
+    border-radius: 5px;
     border: none;
-    border-radius: 1px;
 }
 
 #workspaces button.urgent {
@@ -255,7 +262,6 @@ label:focus {
 
 .custom-spotify {
     padding: 0 10px;
-    margin: 0 4px;
     background-color: @green;
     color: #4c4f69;
 }
@@ -315,5 +321,7 @@ label:focus {
 #custom-power {
     background-color: @mauve;
     color: @base;
+    border-radius: 6px 15px 15px 6px;
+
 }
 

@@ -1,13 +1,15 @@
 {
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 25, // Waybar height (to be removed for auto height)
-    // "width": 1280, // Waybar width
-    "spacing": 4, // Gaps between modules (4px)
+   // "height": 25, // Waybar height (to be removed for auto height)
+   //  "width": 1280, // Waybar width
+     "margin-left": 2, // Waybar left margin
+     "margin-right": 2, //  Waybar right margin
+   // "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["custom/separator2", "sway/workspaces", "custom/separator", "sway/window"],
     "modules-center": ["clock"],
-    "modules-right": ["idle_inhibitor", "gamemode", "tray", "custom/spotify", "pulseaudio", "network", "cpu", "memory", "temperature", "keyboard-state", "custom/power", "custom/separator3"],
+    "modules-right": ["idle_inhibitor", "gamemode", "tray", "custom/spotify", "pulseaudio", "network", "cpu", "memory", "temperature", "keyboard-state", "custom/power"],
     // Modules configuration
    "sway/workspaces": {
         "format": "{name}",
