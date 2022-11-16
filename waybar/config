@@ -5,7 +5,7 @@
    //  "width": 1280, // Waybar width
      "margin-left": 2, // Waybar left margin
      "margin-right": 2, //  Waybar right margin
-   // "spacing": 4, // Gaps between modules (4px)
+    "spacing": 2, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["custom/separator2", "sway/workspaces", "custom/separator", "sway/window"],
     "modules-center": ["clock"],
@@ -65,7 +65,7 @@
         // "timezone": "America/Chicago",
         "format": "{:%Y-%m-%d - %I:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%I:%M}"
         
     },
     "cpu": {
@@ -158,8 +158,8 @@
 
 "custom/power": {
     "format": "", // This icon is provided by the Awesome-fonts collection, not sure how to paste it unfortunately
-
-    "on-click": "swaynag -t warning -m 'Power Menu Options' -b 'Shutdown'  'shutdown -h now' -b 'Restart' 'shutdown -r now' -b 'Logout' 'swaymsg exit' -b 'Hibernate' 'systemctl hibernate' --background=#181926 --button-background=#363a4f --button-border=#1e2030 --border-bottom=#002b33 --button-text=#f4dbd6"
+        "on-click": "exec /home/petergriffin/.config/waybar/scripts/power-menu.sh",
+        "tooltip": false,
 },
 "return-type": "json",
 "exec-if": "which swaync-client",

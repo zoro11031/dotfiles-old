@@ -1,0 +1,4 @@
+#Permanently Floating Windows
+for_window [title="Migaku Dictionary"] floating enable
+for_window [app_id="pavucontrol"] floating enable, resize set 800 500
+for_window [app_id="catfish"] floating enable, resize set 1000 450

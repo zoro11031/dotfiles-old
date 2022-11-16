@@ -140,9 +140,6 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-#Permanently Floating Windows
-for_window [title="Migaku Dictionary"] floating enable
-for_window [app_id="pavucontrol"] floating enable, resize set 800 500
 
 #Config Directories
 
