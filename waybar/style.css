@@ -170,7 +170,7 @@ label:focus {
 }
 
 #network {
-    background-color: @blue;
+    background-color: @lavender;
     color: #4c4f69;
 }
 
@@ -213,7 +213,7 @@ label:focus {
 }
 
 #tray {
-    background-color: @lavender;
+    background-color: @blue;
 }
 
 #tray > .passive {

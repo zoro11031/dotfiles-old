@@ -37,7 +37,6 @@
     # We just use 1-10 as the default.
     #Assign programs to specific workspaces
     assign [class="discord"] workspace $ws2
-    for_window [class="Spotify"] move window to workspace $ws2
     assign [class="Anki"] workspace $ws4
     assign [class="Steam"] workspace $ws5
 

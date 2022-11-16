@@ -113,6 +113,7 @@
         "format-muted": " {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
+        "ignored-sinks": ["Easy Effects Sink"],
         "format-icons": {
             "headphone": "",
             "hands-free": "",

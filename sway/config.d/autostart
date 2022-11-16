@@ -64,8 +64,9 @@ exec_always easyeffects --gapplication-service
 
 #Bitwarden
 
-exec_always flatpak run com.bitwarden.desktop
+exec flatpak run com.bitwarden.desktop
 
-for_window [class="Bitwarden"] mark "passwords", floating enable, move scratchpad
+for_window [class="Bitwarden"] mark "passwords", floating enable
 
+#for_window [class="Bitwarden"] mark "passwords", floating enable, move scratchpad
 
