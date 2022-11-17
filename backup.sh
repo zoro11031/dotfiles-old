@@ -17,6 +17,7 @@ cp -R /home/petergriffin/.config/fcitx5 /home/petergriffin/Documents/dotfiles-pu
 cp -R /home/petergriffin/Pictures/Wallpapers/* /home/petergriffin/Documents/dotfiles-public/wallpapers
 cp -R /home/petergriffin/.local/share/Anki2/addons21/Beautify_Anki /home/petergriffin/Documents/dotfiles-public/beautify_anki
 cp -R /home/petergriffin/.config/neofetch /home/petergriffin/Documents/dotfiles-public/
+cp -R /home/petergriffin/.config/wofi /home/petergriffin/Documents/dotfiles-public/
 #Add and commit to github
 git add .
 git commit -m "auto-update"

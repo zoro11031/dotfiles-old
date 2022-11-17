@@ -1,0 +1,44 @@
+ @import "macchiato.css";
+
+{
+    font-family: Roboto Bold;
+    font-size: 14px;
+}
+
+#window {
+    border: 0px solid #1e2030;
+    background-color: #1e2030;
+    border-radius: 10px;
+    margin: 0px 3px 0px 3px;
+}
+
+#inner-box {
+    background-color: #1e2030;
+    margin: 1px 1px 1px 1px;
+
+}
+
+#outer-box {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #1e2030;
+    margin-top: -30px;
+}
+
+#text {
+    padding: 5px;
+    color: #f4dbd6;
+}
+
+#entry:nth-child(even) {
+    background-color: #363a4f;
+}
+
+#entry {
+    background-color: #5b6078;
+}
+
+#entry:selected {
+    background-color: #8aadf4;
+}

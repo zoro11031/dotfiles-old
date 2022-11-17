@@ -121,7 +121,7 @@ bindsym $mod+r mode "resize"
 	bindsym $mod+Shift+n exec swaync-client -t -sw
 	
 ##Toggle nwg-drawer	
-	bindsym $mod+a exec nwg-drawer -ovl
+	#bindsym $mod+a exec nwg-drawer -ovl
 
 ##Open File Manager
 	bindsym $mod+e exec thunar

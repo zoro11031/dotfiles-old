@@ -1,0 +1,40 @@
+ @import "macchiato.css";
+*
+
+{
+    font-family: Roboto Bold;
+}
+
+window {
+    border: 1px solid @base;
+}
+
+#input {
+    margin-bottom: 15px;
+    padding:3px;
+    border-radius: 5px;
+    color: white;
+}
+
+#inner-box {
+    background-color: @base3;
+}
+
+#outer-box {
+    margin: 5px;
+    padding:15px;
+    background-color: @base2;
+}
+
+#text {
+    padding: 5px;
+    color: @rosewater;
+}
+
+#entry:nth-child(even) {
+    background-color: @base1;
+}
+
+#entry:selected {
+    background-color: @highlight;
+}
