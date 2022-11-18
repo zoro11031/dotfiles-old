@@ -13,8 +13,8 @@ set $term kitty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu exec ~/.config/sway/scripts/fuzzel.sh
-
+#set $menu exec ~/.config/sway/scripts/fuzzel.sh
+set $menu exec nwg-drawer -ovl
 ### Output configuration
    
    output DP-1 resolution 2560x1440@165hz position 0,0 adaptive_sync on

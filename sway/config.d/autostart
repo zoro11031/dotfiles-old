@@ -7,7 +7,7 @@ exec /home/petergriffin/.config/sway/scripts/keyring.sh
 	exec ~/.azotebg
 ##nwg-drawer autostart and stay in background
 
-	exec_always nwg-drawer -r -fm thunar -term kitty -ovl
+	exec_always nwg-drawer -r -nofs -fm thunar -term kitty -ovl
 
 ##Notification Daemon
 	exec_always swaync
