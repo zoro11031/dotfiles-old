@@ -65,8 +65,7 @@
         // "timezone": "America/Chicago",
         "format": "{:%Y-%m-%d - %I:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%I:%M}"
-        
+        "on-click": "swaync-client -t -sw"
     },
     "cpu": {
         "format": "{usage}% ",

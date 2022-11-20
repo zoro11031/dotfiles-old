@@ -47,3 +47,5 @@
         bindsym $mod+Control+2 exec /home/petergriffin/.config/sway/scripts/study.sh
         #Language Learning - Games
     bindsym $mod+Control+3 exec /home/petergriffin/.config/sway/scripts/study-games.sh    
+    
+    bindsym $mod+Control+4 exec /home/petergriffin/.config/sway/scripts/game2text.sh    

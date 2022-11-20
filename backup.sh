@@ -15,6 +15,7 @@ cp -R /home/petergriffin/.config/Trolltech.conf /home/petergriffin/Documents/dot
 cp -R /home/petergriffin/.config/spicetify /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.config/fcitx5 /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/Pictures/Wallpapers/* /home/petergriffin/Documents/dotfiles-public/wallpapers
+cp -R /home/petergriffin/.config/swaync /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.local/share/Anki2/addons21/Beautify_Anki /home/petergriffin/Documents/dotfiles-public/beautify_anki
 cp -R /home/petergriffin/.config/neofetch /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.config/wofi /home/petergriffin/Documents/dotfiles-public/
