@@ -14,6 +14,7 @@ cp -R /home/petergriffin/.config/memento/memento.conf /home/petergriffin/Documen
 cp -R /home/petergriffin/.config/Trolltech.conf /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.config/spicetify /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.config/fcitx5 /home/petergriffin/Documents/dotfiles-public/
+cp -R /home/petergriffin/Pictures/neofetch /home/petergriffin/Documents/dotfiles-public/neofetch-images
 cp -R /home/petergriffin/Pictures/Wallpapers/* /home/petergriffin/Documents/dotfiles-public/wallpapers
 cp -R /home/petergriffin/.config/swaync /home/petergriffin/Documents/dotfiles-public/
 cp -R /home/petergriffin/.local/share/Anki2/addons21/Beautify_Anki /home/petergriffin/Documents/dotfiles-public/beautify_anki
