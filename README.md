@@ -1,2 +1,3 @@
 # dotfiles-public
-![2022-11-14T02:03:26,648539277-06:00](https://user-images.githubusercontent.com/57109577/201607659-65166b95-0a23-4db5-afde-58a6d04fc5bf.png)
+11/19/2022 changed neofetch image and adjusted waybar CSS, added swaync notification center on click to the clock in the center
+![2022-11-19T23:17:22,361045003-06:00](https://user-images.githubusercontent.com/57109577/202886971-b4aa6b3b-abfb-4326-a50b-6a50099848c7.png)
