@@ -17,16 +17,14 @@ set $term kitty
 set $menu exec nwg-drawer -nofs -fm thunar -term kitty -ovl
 ### Output configuration
    
-   output DP-1 resolution 2560x1440@165hz position 0,0 adaptive_sync on
+   output DP-1 resolution 2560x1440@165hz position 0,0 adaptive_sync on, max_render_time 2
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
 ### Inhibit Idle When Gaming
 for_window [class="steam_app*"] inhibit_idle focus
 #
-
-
-
+for_window [class="steam_app*"] max_render_time 3
 
 #Config Directories
 
