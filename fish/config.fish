@@ -3,4 +3,5 @@ if status is-interactive
     neofetch 
     set PATH $HOME/.emacs.d/bin $PATH
     alias vim="nvim"
+    zoxide init fish | source
 end
