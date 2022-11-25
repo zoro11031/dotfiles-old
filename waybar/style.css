@@ -321,6 +321,7 @@ label:focus {
 #custom-power {
     background-color: @mauve;
     color: @base;
+    padding: 0 15px;
     border-radius: 6px 15px 15px 6px;
 
 }

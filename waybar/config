@@ -1,7 +1,7 @@
 {
     // "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-   // "height": 25, // Waybar height (to be removed for auto height)
+    "height": 35, // Waybar height (to be removed for auto height)
    //  "width": 1280, // Waybar width
      "margin-left": 2, // Waybar left margin
      "margin-right": 2, //  Waybar right margin
